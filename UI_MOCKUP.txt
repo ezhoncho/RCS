@@ -1,0 +1,72 @@
+================================================================================
+|  RCS - Recoil Control System                                        [X]    |
+================================================================================
+|                                                                            |
+|  System Status: ACTIVE | Press F8 to toggle | Press F9 to hide UI         |
+|  [Stop (F8)]  Active Weapon: Assault Rifle                                |
+|                                                                            |
+|============================================================================|
+|                                                                            |
+|  ▼ Control Settings                                                        |
+|     Vertical Sensitivity:   [||||||||||||||||||||    ] 1.20              |
+|     Horizontal Sensitivity: [||||||||||||||||||      ] 1.00              |
+|     Shot Delay (ms):        [||||||||||||            ] 90                |
+|                                                                            |
+|============================================================================|
+|                                                                            |
+|  ▼ Weapon Profiles                                                         |
+|     Select Weapon Profile:                                                 |
+|     > Assault Rifle                                                        |
+|       SMG                                                                  |
+|       Pistol                                                               |
+|                                                                            |
+|     Profile: Assault Rifle                                                 |
+|     Vertical Control:    [||||||||||||||||||||      ] 1.20               |
+|     Horizontal Sway:     [||||||||||||||||||||||    ] 0.80               |
+|     Shot Interval:       [||||||||||||              ] 90                 |
+|     Pattern Length: 15 points                                             |
+|                                                                            |
+|============================================================================|
+|                                                                            |
+|  ▽ Muzzle Flash Detection                                                  |
+|     Scan Region: Center 10x10 pixels                                      |
+|     Flash Color: RGB(240, 240, 240)                                       |
+|     Auto-reset: 3 seconds after last shot                                 |
+|     [Test Flash Detection]                                                 |
+|                                                                            |
+|============================================================================|
+|                                                                            |
+|  ▽ Custom Pattern Builder                                                  |
+|     Pattern Name: [Custom Pattern_____________]                            |
+|     [Add Point] [Clear Pattern]                                           |
+|                                                                            |
+|     Point 1: X[   0.0] Y[ 15.0] [Remove]                                 |
+|     Point 2: X[   2.0] Y[ 17.0] [Remove]                                 |
+|     Point 3: X[  -3.0] Y[ 18.0] [Remove]                                 |
+|                                                                            |
+|     [Save Custom Profile]                                                  |
+|                                                                            |
+|============================================================================|
+|                                                                            |
+|                    [Exit Application]                                     |
+|                                                                            |
+================================================================================
+
+COLOR SCHEME:
+- Background: Dark Gray (#262626)
+- Window Background: Darker Gray (#1E1E1E)
+- Text: White (#FFFFFF)
+- Headers/Buttons: Purple (#6B2C91) with hover effects
+- Active Elements: Bright Purple (#8A4BB8)
+- Status Active: Green (#00FF00)
+- Status Inactive: Red (#FF0000)
+- Borders: Medium Gray (#666666)
+
+FEATURES HIGHLIGHTED:
+✅ Modern dark theme with purple accents
+✅ Real-time sliders for all parameters
+✅ Weapon profile selection with live preview
+✅ Custom pattern builder with visual editor
+✅ Clear status indicators and controls
+✅ Collapsible sections for organization
+✅ Professional, game-focused appearance
