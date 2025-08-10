@@ -1,0 +1,283 @@
+/* Modern Dark Theme for RCS Application */
+
+/* Main Application Styling */
+QMainWindow {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 10pt;
+}
+
+/* Group Boxes */
+QGroupBox {
+    font-weight: bold;
+    font-size: 11pt;
+    color: #ffffff;
+    border: 2px solid #3d3d3d;
+    border-radius: 8px;
+    margin-top: 12px;
+    padding-top: 10px;
+    background-color: #333333;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 8px 0 8px;
+    color: #4da6ff;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #404040;
+    border: 1px solid #555555;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 10pt;
+    font-weight: 500;
+    padding: 8px 16px;
+    min-width: 80px;
+}
+
+QPushButton:hover {
+    background-color: #505050;
+    border-color: #666666;
+}
+
+QPushButton:pressed {
+    background-color: #353535;
+    border-color: #777777;
+}
+
+QPushButton:disabled {
+    background-color: #2a2a2a;
+    color: #666666;
+    border-color: #3a3a3a;
+}
+
+/* Primary Button (Start Recording) */
+QPushButton#primaryButton {
+    background-color: #0078d4;
+    border-color: #106ebe;
+}
+
+QPushButton#primaryButton:hover {
+    background-color: #1084d8;
+    border-color: #0f6cbd;
+}
+
+QPushButton#primaryButton:pressed {
+    background-color: #006bb3;
+}
+
+/* Success Button (Play Macro) */
+QPushButton#successButton {
+    background-color: #107c10;
+    border-color: #0e6e0e;
+}
+
+QPushButton#successButton:hover {
+    background-color: #128c12;
+    border-color: #0d600d;
+}
+
+QPushButton#successButton:pressed {
+    background-color: #0d5d0d;
+}
+
+/* Labels */
+QLabel {
+    color: #ffffff;
+    font-size: 10pt;
+}
+
+/* Checkboxes */
+QCheckBox {
+    color: #ffffff;
+    font-size: 10pt;
+    spacing: 8px;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #555555;
+    border-radius: 3px;
+    background-color: #404040;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #0078d4;
+    border-color: #106ebe;
+    image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEzLjUgNEw2IDExLjVMMi41IDgiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=);
+}
+
+QCheckBox::indicator:hover {
+    border-color: #666666;
+}
+
+/* Spin Boxes */
+QSpinBox, QDoubleSpinBox {
+    background-color: #404040;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 4px 8px;
+    font-size: 10pt;
+}
+
+QSpinBox:focus, QDoubleSpinBox:focus {
+    border-color: #0078d4;
+}
+
+QSpinBox::up-button, QDoubleSpinBox::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+    width: 16px;
+    border-left: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+    border-top-right-radius: 4px;
+    background-color: #505050;
+}
+
+QSpinBox::down-button, QDoubleSpinBox::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+    width: 16px;
+    border-left: 1px solid #555555;
+    border-top: 1px solid #555555;
+    border-bottom-right-radius: 4px;
+    background-color: #505050;
+}
+
+QSpinBox::up-arrow, QDoubleSpinBox::up-arrow {
+    image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNiIgdmlld0JveD0iMCAwIDEwIDYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik01IDBMOS41IDZIMC41TDUgMFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=);
+    width: 8px;
+    height: 4px;
+}
+
+QSpinBox::down-arrow, QDoubleSpinBox::down-arrow {
+    image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNiIgdmlld0JveD0iMCAwIDEwIDYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0wLjUgMEw1IDZMOS41IDBIMS41WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==);
+    width: 8px;
+    height: 4px;
+}
+
+/* Progress Bar */
+QProgressBar {
+    border: 1px solid #555555;
+    border-radius: 4px;
+    background-color: #404040;
+    text-align: center;
+    color: #ffffff;
+    font-size: 9pt;
+    height: 18px;
+}
+
+QProgressBar::chunk {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #0078d4, stop: 1 #005a9e);
+    border-radius: 3px;
+}
+
+/* Text Edit (Log Output) */
+QTextEdit#logOutput {
+    background-color: #1e1e1e;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 9pt;
+    selection-background-color: #0078d4;
+}
+
+/* Status Bar */
+QStatusBar {
+    background-color: #333333;
+    color: #ffffff;
+    border-top: 1px solid #555555;
+    font-size: 9pt;
+}
+
+QStatusBar::item {
+    border: none;
+}
+
+/* Scroll Bars */
+QScrollBar:vertical {
+    background-color: #2b2b2b;
+    width: 12px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #555555;
+    border-radius: 6px;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #666666;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+}
+
+QScrollBar:horizontal {
+    background-color: #2b2b2b;
+    height: 12px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #555555;
+    border-radius: 6px;
+    min-width: 20px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background-color: #666666;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    border: none;
+    background: none;
+}
+
+/* Tooltips */
+QToolTip {
+    background-color: #404040;
+    color: #ffffff;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 9pt;
+}
+
+/* Menu Bar (if added later) */
+QMenuBar {
+    background-color: #333333;
+    color: #ffffff;
+    border-bottom: 1px solid #555555;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    padding: 4px 8px;
+}
+
+QMenuBar::item:selected {
+    background-color: #0078d4;
+}
+
+/* General Widget Styling */
+QWidget {
+    outline: none;
+}
+
+/* Window Title Bar Styling (limited effect in most cases) */
+QMainWindow::title {
+    background-color: #2b2b2b;
+    color: #ffffff;
+}

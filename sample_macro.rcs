@@ -1,0 +1,9 @@
+# RCS Macro File v1.0
+# Format: type,x,y,timestamp,delay
+# Types: 0=MouseMove, 1=LeftClick, 2=RightClick, 3=DoubleClick, 4=Delay
+0,100,100,1000,0
+1,100,100,1500,0
+0,200,200,2000,0
+2,200,200,2500,0
+0,300,300,3000,0
+3,300,300,3500,0
