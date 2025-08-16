@@ -1,0 +1,28 @@
+# Core chess and image processing libraries
+opencv-python==4.8.1.*
+python-chess==1.999
+stockfish==3.28.0
+Pillow==10.0.0
+numpy==1.24.3
+
+# Web automation and screenshots
+selenium==4.15.0
+webdriver-manager==4.0.1
+requests==2.31.0
+
+# GUI and visualization
+matplotlib==3.7.2
+tkinter-tooltip==1.5
+
+# Utility libraries
+PyYAML==6.0.1
+configparser==6.0.0
+argparse==1.4.0
+
+# Optional: For advanced board detection
+scikit-image==0.21.0
+pytesseract==0.3.10
+
+# Development and testing
+pytest==7.4.0
+black==23.7.0
